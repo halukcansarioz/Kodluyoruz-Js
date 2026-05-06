@@ -1,80 +1,136 @@
-# 🚀 Kodluyoruz - JavaScript
+
+# 🟨 Kodluyoruz — JavaScript
+### (JavaScript Assignments & Exercises from the Patika.dev Frontend Bootcamp)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
+[![Kodluyoruz](https://img.shields.io/badge/Kodluyoruz-FCA311?style=flat&logo=codeigniter&logoColor=white)](#)
 
-Bu depo, [Kodluyoruz](https://www.kodluyoruz.org) ve [Patika.dev](https://www.patika.dev) Frontend (Web Geliştirme) eğitim patikası kapsamında hazırlanan temel ve ileri düzey JavaScript (JS) projelerini, algoritmik alıştırmaları ve çalışma dosyalarını içermektedir.
+This repository contains fundamental and intermediate JavaScript (JS) projects, algorithmic exercises, and study files prepared as part of the [Kodluyoruz](https://www.kodluyoruz.org) and [Patika.dev](https://www.patika.dev) Frontend Web Development bootcamp.
 
-## 📚 İçindekiler
-- [Proje Hakkında](#proje-hakkında)
-- [Öğrenim Çıktıları](#öğrenim-çıktıları)
-- [Geliştirme Süreci](#geliştirme-süreci)
-- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
-
----
-
-## 💻 Proje Hakkında
-Bu proje, web sayfalarına dinamiklik kazandıran JavaScript dilinin temellerini anlamak, DOM (Document Object Model) manipülasyonu yapmak, kullanıcı etkileşimlerini yönetmek ve modern JS (ES6+) standartlarına uygun algoritmik çözümler üretmek amacıyla oluşturulmuştur.
-
-## 🗂 Öğrenim Çıktıları
-Bu depodaki çalışmalar genel olarak aşağıdaki konuları kapsamaktadır:
-* **Temeller:** Değişkenler (let, const), Veri Tipleri ve Operatörler
-* **Kontrol Yapıları:** Koşullu İfadeler (If/Else, Switch) ve Döngüler (For, While)
-* **Fonksiyonlar:** Normal Fonksiyonlar ve Arrow Functions
-* **Veri Yapıları:** Diziler (Arrays) ve Nesneler (Objects) ile metodları (map, filter, reduce vb.)
-* **DOM Manipülasyonu:** Element seçimi, stil değiştirme ve Event Listeners (Olay Dinleyicileri)
-* **Asenkron Programlama:** Fetch API, Promises ve Async/Await kullanımı
+## 📚 Table of Contents
+- [About the Project](#about-the-project)
+- [Learning Outcomes](#learning-outcomes)
+- [Highlight Project](#highlight-project)
+- [Project Structure](#project-structure)
+- [Development Workflow](#development-workflow)
+- [Installation & Usage](#installation--usage)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
-## 🛠 Geliştirme Süreci
+## About the Project
+This project was created to understand the fundamentals of the JavaScript language — which brings dynamic behavior to web pages — to perform DOM (Document Object Model) manipulation, to manage user interactions, and to produce algorithmic solutions adhering to modern JS (ES6+) standards.
 
-Projeye yeni bir çalışma dosyası eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
+- **Developer:** Haluk Can SARIÖZ
+- **Program:** Kodluyoruz & Patika.dev Frontend Web Development Bootcamp
+- **Languages:** JavaScript (54.9%), HTML (25.9%), CSS (19.2%)
 
-### 1. Forklama
-Öncelikle repoyu kendi GitHub hesabınıza fork'layın.
+---
 
-### 2. Yeni Dal (Branch) Oluşturma
-Her yeni çalışma veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
+## Learning Outcomes
+The exercises in this repository generally cover the following topics:
 
-```bash
-git checkout -b ozellik/yeni-js-calismasi
+- **Fundamentals:** Variables (`let`, `const`), Data Types, and Operators
+- **Control Structures:** Conditional Statements (If/Else, Switch) and Loops (For, While)
+- **Functions:** Regular Functions and Arrow Functions
+- **Data Structures:** Arrays and Objects, along with their methods (`map`, `filter`, `reduce`, etc.)
+- **DOM Manipulation:** Element selection, style modification, and Event Listeners
+- **Asynchronous Programming:** Fetch API, Promises, and Async/Await
+
+---
+
+## Highlight Project
+### ⏰ JavaScript Clock (Ödev1)
+
+A real-time clock application built with vanilla JavaScript, HTML, and CSS. Key features include:
+
+- **Live Clock:** Displays the current time and updates every second.
+- **Dynamic Background:** The background image changes automatically based on the time of day.
+- **Personal Greeting:** A prompt asks for your name and displays it alongside the clock.
+- **Cross‑platform:** Works on Windows, macOS, and Linux — just open `index.html`.
+
+> 📁 Located in [`Javascript-Clock-Ödev1/`](https://github.com/halukcansarioz/Kodluyoruz-Js/tree/main/Javascript-Clock-%C3%96dev1)
+
+---
+
+## Project Structure
+```text
+Kodluyoruz-Js/
+├── Javascript-Clock-Ödev1/          # Real‑time clock assignment
+│   ├── css/                         # Stylesheets
+│   ├── html/                        # HTML entry point(s)
+│   ├── img/                         # Background images and assets
+│   ├── js/                          # JavaScript logic
+│   └── README.md                    # Inner project description
+├── LICENSE                          # MIT License
+└── README.md                        # Main project documentation (this file)
 ```
 
-### 3. Kodları Gönderme (Push)
-Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
+---
 
+## Development Workflow
+When adding a new JavaScript exercise or updating existing code, you can follow these steps:
+
+### 1. Fork
+First, fork the repository to your own GitHub account.
+
+### 2. Create a New Branch
+Creating a new branch for each exercise or fix keeps things organized:
 ```bash
-git push origin ozellik/yeni-js-calismasi
+git checkout -b feature/new-js-exercise
+```
+
+### 3. Push Your Code
+After making and committing your changes, push the branch to GitHub:
+```bash
+git push origin feature/new-js-exercise
 ```
 
 ---
 
-## 💻 Kurulum ve Kullanım
+## Installation & Usage
 
-1. Repoyu klonlayın:
-
+**1. Clone the repository:**
 ```bash
 git clone https://github.com/halukcansarioz/Kodluyoruz-Js.git
 ```
 
-2. Projeyi Açın: Klasör içerisindeki ilgili `.html` (bağlı olduğu `.js` scriptleri ile birlikte) veya doğrudan `.js` dosyasına tıklayarak projeyi kod editörünüzde (VS Code vb.) açın.
+**2. Open the project:**
+Navigate into the folder and open the relevant `.html` file (along with its linked `.js` scripts) or open a standalone `.js` file directly in your code editor (VS Code, etc.).
+
+**3. Run in the browser:**
+Double‑click any `.html` file to view it in your default browser. For the JavaScript Clock, open `Javascript-Clock-Ödev1/html/index.html`.
 
 ---
 
-## 🤝 Katkıda Bulunma
+## Contributing
+Contributions are welcome!
 
-1. Bu repoyu Fork'layın.
-2. **Branch oluşturun** (`git checkout -b feature/dom-manipulasyonu`).
-3. Değişikliklerinizi yapın ve commit edin.
-4. **Kodlarınızı Push'layın** (`git push origin feature/dom-manipulasyonu`).
-5. Bir Pull Request açın.
+1. **Fork** this repository.
+2. **Create a branch** (`git checkout -b feature/dom-manipulation`).
+3. Make your changes and **commit** them.
+4. **Push your code** (`git push origin feature/dom-manipulation`).
+5. Open a **Pull Request**.
 
 ---
 
-## 📜 Lisans
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi inceleyebilir ve çalışmalarınızda faydalanabilirsiniz.
+<a name="contact"></a>
+## Contact
+**Haluk Can Sarıöz**
+- GitHub: [@halukcansarioz](https://github.com/halukcansarioz)
+- Email: [halukcansarioz19@gmail.com](mailto:halukcansarioz19@gmail.com)
+- LinkedIn: [Haluk Can Sarıöz](https://www.linkedin.com/in/halukcansarioz)
+
+---
+
+*If you find this project helpful, please ⭐ the repository!*
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to review and use it in your own work.
