@@ -1,58 +1,80 @@
-# 💻 Kodluyoruz JavaScript Projects (JavaScript Ödevleri)
+# 🚀 Kodluyoruz - JavaScript
 
-This repository contains the projects and assignments developed during the JavaScript and CSS training provided by **Patika.dev**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
 
-<a href="https://app.patika.dev/rosalie" target="blank">
-  <img src="https://global-uploads.webflow.com/6097e0eca1e87557da031fef/609859a191abe5d64b17fed3_Patika%20logo-p-500.png" height="110" alt="Patika Badge"/>
-</a>
+Bu depo, [Kodluyoruz](https://www.kodluyoruz.org) ve [Patika.dev](https://www.patika.dev) Frontend (Web Geliştirme) eğitim patikası kapsamında hazırlanan temel ve ileri düzey JavaScript (JS) projelerini, algoritmik alıştırmaları ve çalışma dosyalarını içermektedir.
 
-The project at the end of the online training given to learn CSS and JavaScript in PatikaDev.
-
-## 👨🏼‍💻 About the Developer & Motivation
-
-I have been trying to improve myself since I graduated from Ankara University Computer Engineering. For this, I attend courses from online platforms. I have about 6 months of experience on Ruby on Rails as a Full Stack Developer. I am currently trying to improve myself in Front-end, Back-end, and the fascinating world of Data Science. This repository is a reflection of my progress in modern web development!
-
-## ✨ Features & Project Scope
-
-This repository includes several interactive mini-projects:
-
-*   **JavaScript Clock & Greeting:** A dynamic landing page that greets the user and displays a real-time digital clock using DOM manipulation.
-*   **To-Do List:** A functional task management app with **LocalStorage** integration to ensure data persistence.
-*   **Asian Kitchen Menu:** A project showcasing data filtering and dynamic UI generation using modern JavaScript array methods.
-*   **CSS Layouts:** Implementation of various styling techniques learned throughout the Patika.dev path.
-
-## 🛠️ Tech Stack
-
-*   **Language:** JavaScript (ES6+)
-*   **Styling:** CSS3 (Flexbox/Grid), Bootstrap
-*   **Structure:** HTML5
-*   **Storage:** Browser LocalStorage
-*   **Version Control:** Git & GitHub
-
-## 🚀 Getting Started
-
-### Prerequisites
-You only need a modern web browser and a code editor (like VS Code).
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/halukcansarioz/Kodluyoruz-Js.git
-    ```
-2.  **Run the projects:**
-    *   Open any project folder (e.g., `javascript-saat-odevi`).
-    *   Open the `index.html` file in your browser.
-    *   *Tip:* Use the **Live Server** extension in VS Code for real-time updates.
-
-## 🔗 External Links
-
-*   [Click me to go to Patika.dev!](https://www.patika.dev/tr/bootcamp)
-
-## 👨‍💻 Developer
-
-**Haluk Can Sarıöz**
-*   GitHub: [@halukcansarioz](https://github.com/halukcansarioz)
+## 📚 İçindekiler
+- [Proje Hakkında](#proje-hakkında)
+- [Öğrenim Çıktıları](#öğrenim-çıktıları)
+- [Geliştirme Süreci](#geliştirme-süreci)
+- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
 
 ---
-*This repository is a part of my continuous learning path in Front-End development.*
+
+## 💻 Proje Hakkında
+Bu proje, web sayfalarına dinamiklik kazandıran JavaScript dilinin temellerini anlamak, DOM (Document Object Model) manipülasyonu yapmak, kullanıcı etkileşimlerini yönetmek ve modern JS (ES6+) standartlarına uygun algoritmik çözümler üretmek amacıyla oluşturulmuştur.
+
+## 🗂 Öğrenim Çıktıları
+Bu depodaki çalışmalar genel olarak aşağıdaki konuları kapsamaktadır:
+* **Temeller:** Değişkenler (let, const), Veri Tipleri ve Operatörler
+* **Kontrol Yapıları:** Koşullu İfadeler (If/Else, Switch) ve Döngüler (For, While)
+* **Fonksiyonlar:** Normal Fonksiyonlar ve Arrow Functions
+* **Veri Yapıları:** Diziler (Arrays) ve Nesneler (Objects) ile metodları (map, filter, reduce vb.)
+* **DOM Manipülasyonu:** Element seçimi, stil değiştirme ve Event Listeners (Olay Dinleyicileri)
+* **Asenkron Programlama:** Fetch API, Promises ve Async/Await kullanımı
+
+---
+
+## 🛠 Geliştirme Süreci
+
+Projeye yeni bir çalışma dosyası eklerken veya mevcut kodları güncellerken aşağıdaki adımları takip edebilirsiniz:
+
+### 1. Forklama
+Öncelikle repoyu kendi GitHub hesabınıza fork'layın.
+
+### 2. Yeni Dal (Branch) Oluşturma
+Her yeni çalışma veya düzeltme için yeni bir dal oluşturmak düzeni korur. Terminalde şu komutu kullanın:
+
+```bash
+git checkout -b ozellik/yeni-js-calismasi
+```
+
+### 3. Kodları Gönderme (Push)
+Değişikliklerinizi yaptıktan ve commit'ledikten sonra, hazırladığınız dalı GitHub'a göndermek için:
+
+```bash
+git push origin ozellik/yeni-js-calismasi
+```
+
+---
+
+## 💻 Kurulum ve Kullanım
+
+1. Repoyu klonlayın:
+
+```bash
+git clone https://github.com/halukcansarioz/Kodluyoruz-Js.git
+```
+
+2. Projeyi Açın: Klasör içerisindeki ilgili `.html` (bağlı olduğu `.js` scriptleri ile birlikte) veya doğrudan `.js` dosyasına tıklayarak projeyi kod editörünüzde (VS Code vb.) açın.
+
+---
+
+## 🤝 Katkıda Bulunma
+
+1. Bu repoyu Fork'layın.
+2. **Branch oluşturun** (`git checkout -b feature/dom-manipulasyonu`).
+3. Değişikliklerinizi yapın ve commit edin.
+4. **Kodlarınızı Push'layın** (`git push origin feature/dom-manipulasyonu`).
+5. Bir Pull Request açın.
+
+---
+
+## 📜 Lisans
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Dilediğiniz gibi inceleyebilir ve çalışmalarınızda faydalanabilirsiniz.
